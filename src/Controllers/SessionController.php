@@ -108,7 +108,7 @@ class SessionController extends Controller
             }
         }
 
-        if (option('ygg_mojang_forwarding') == 'blessing') {
+        if ((boolean) option('ygg_mojang_forwarding')) {
             $mojangResult = hasJoinedServerMojang($name, $serverId, $ip);
             if ($mojangResult != null) return response()->json()->setContent($mojangResult);
         }
