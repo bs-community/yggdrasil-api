@@ -4,7 +4,7 @@ body: Please conform the above address can be accessed before&nbsp;<a href=":hre
 common: Common
 uuid_algorithm: Algorithm for Generating UUID
 v3: 'Version 3: same as the offline-mode generation algorithm [recommanded]'
-v4: 'Version 4: generateing randomly [it will damage users' data from existing offline-mode servers]'
+v4: 'Version 4: generateing randomly [it WILL DAMAGE users' data from existing offline-mode servers]'
 ver_hint: using V3 will make the impact minmium to existing offline-mode servers.
 token_expire_1: Time Before Tokens Temporarily Expired
 token_expire_2: Time Before Tokens Expired
@@ -12,9 +12,9 @@ token_expire_description: Spicify the time before "temporarily expired" and "tru
 rate_limit: Limit the Rate of Logging In/Out
 rate_limit_hint: the time interview between two operations (in ms)
 skin_domain: White List for Extra Domains
-skin_domain_description: Textures can only be loaded that from domains in this list. "The Site's Domain" and "Current Domain" are added by default; if you need to loaded texture from extra domain, seperating them by comma (,).
-profile_qureying_limit: Limit of Querying Profiles
-profile_qureying_limit_hint: the max number of prifiles that can be fetched per request
+skin_domain_description: Textures can only be loaded that from domains in this list. "This Site's Domain" and "Current Domain" are added by default; if needing to load textures from extra domains, add them and seperating by comma (,).
+profile_qureying_limit: Quota of Querying Profiles
+profile_qureying_limit_hint: the maxmium number of prifiles that can be fetched per request
 show_scl: "SCL" Section
 show_scl_label: Show "Sourtcut for Configing Launcher" at User Center
 enable_ali: ALI
@@ -25,7 +25,7 @@ private_key: OpenSSL private key
 private_key_hint: only need to provied a private key in PEM format, the public key can be deduced
 generate-key: Generate a new private key
 submit-key: Submit key
-submit-key_message: Click the blue button bellow to gain a random key. <br>If you would like to use a specific key, please refer to <a href=":href">Wiki - Signature Key Pair</a>。
+submit-key_message: Click the blue button bellow to gain a random key. </br>If you would like to use a specific key, please refer to <a href=":href">Wiki - Signature Key Pair</a>.
 invalid_key: Invalid Key, please CHECK your input and re-submit.
 valid_key: Valid Key
 
