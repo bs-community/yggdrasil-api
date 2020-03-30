@@ -1,0 +1,32 @@
+title: Yggdrasil API 配置
+body: 请确认以上 URL 能够正常访问后再&nbsp;<a href=":href">进行 authlib-injector 的配置</a>。
+# ---
+common: 常规配置
+uuid_algorithm: UUID 生成算法
+v3: 'Version 3: 与原盗版用户 UUID 一致【推荐】'
+v4: 'Version 4: 随机生成【想要同时兼容盗版登录的不要选】'
+ver_hint: 选择 Version 3 以获得对原盗版服务器的最佳兼容性。
+token_expire_1: 令牌暂时失效时间
+token_expire_2: 令牌完全失效时间
+token_expire_description: 分别指定 Token【暂时失效】与【完全失效】的过期时间（技术细节请参阅 :link），单位为秒
+rate_limit: 登录/登出频率限制
+rate_limit_description: 两次操作之间的时间间隔（毫秒）
+skin_domain: 额外皮肤白名单域名
+skin_domain_description: 只有在此列表中的材质才能被加载。【本站地址】和【当前访问地址】已经默认添加至白名单列表，需要添加的额外白名单域名请使用半角逗号 (,) 分隔
+profile_searching_limit: 批量查询角色数量限制
+profile_searching_limit_hint: 一次请求中最多能查询几个角色
+show_config_section: 显示快速配置板块
+show_config_section_label: 在用户中心首页显示「快速配置启动器」板块
+enable_ali: API 地址指示
+enable_ali_label: 开启「API 地址指示 (ALI)」功能
+
+keypair: 密钥对配置
+private_key: OpenSSL 私钥
+private_key_hint: 只需填写 PEM 格式的私钥即可，公钥会根据私钥自动生成。
+generate-key: 帮我生成一个私钥
+submit-key: 保存私钥
+keypair_message: 使用下方的按钮来自动生成符合格式的私钥。<br>如需自定义用于签名的私钥，请参阅 <a href=":href">Wiki - 签名密钥对</a>。
+invalid_key: 无效的私钥，请检查后重新配置。
+valid_key: 私钥有效。
+
+generating_key_exception: 自动生成私钥时出错，请尝试手动设置私钥。错误信息：

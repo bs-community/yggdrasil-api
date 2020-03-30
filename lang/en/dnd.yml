@@ -1,0 +1,5 @@
+title: Shortcut for Configing Launcher
+url: 'Yggdrasil API authentication endpoint of this site: <code>:endpoint</code>'
+body: Click the blue button bellow to copy this address, and you can also drag this button into your launcher’s window to add the authentication server automatically (only supports HMCL with version 3.1.74 or above).
+blue: Drag this button into your launcher
+grey: Full configuration guide
